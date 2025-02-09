@@ -1,4 +1,5 @@
 import express from 'express'
+import cors from 'cors'
 import config from './config.js'
 import userRouter from './v1/user/routes.js'
 
