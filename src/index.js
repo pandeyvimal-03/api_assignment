@@ -13,6 +13,6 @@ app.get('/' , (req , res)=>{
 })
 app.use('/v1' , userRouter)
 
-app.listen(config.port , ()=>{
+app.listen(config.port || 5022 , ()=>{
     console.log(`server started running on ${config.port}`)
 })

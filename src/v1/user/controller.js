@@ -11,6 +11,7 @@ export  const getUserList = async()=>{
            const  res = await execute(qr)
            return Promise.resolve(res)
       } catch (error) {
+          console.log("error is : ", error)
           return Promise.reject(error)
       }
 }
