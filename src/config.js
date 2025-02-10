@@ -9,5 +9,6 @@ export default {
         dbname : process.env.DBNAME,
         dbhost : process.env.DBHOST,
         dbpassword : process.env.DBPASSWORD
-    }
+    },
+    api_url : 'https://api-assignment-15sk.onrender.com'
 }
